@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NZUtilz_Example' do
+  pod 'NZUtilz', :path => '../'
+
+  target 'NZUtilz_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
