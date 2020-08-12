@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NZUtilz'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A collection of base classes shared and used among NZ libraries.'
 
 # This description is used to generate tags and improve search results.
