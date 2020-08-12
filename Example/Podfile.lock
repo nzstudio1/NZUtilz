@@ -1,0 +1,23 @@
+PODS:
+  - NSObject-Meta (0.1.0)
+  - NZUtilz (0.1.0):
+    - NSObject-Meta (~> 0.1.0)
+
+DEPENDENCIES:
+  - NZUtilz (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - NSObject-Meta
+
+EXTERNAL SOURCES:
+  NZUtilz:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NSObject-Meta: fa405e23ac943edb6400899c6fd106ba3f469f4c
+  NZUtilz: aecf9298b9aba46e87cd206e5262bf16e1fc1363
+
+PODFILE CHECKSUM: e630433a8e8748d71e81fee4ff27ea360230f2e4
+
+COCOAPODS: 1.9.1

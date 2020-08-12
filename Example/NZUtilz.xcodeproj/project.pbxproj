@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		2E106C52FA74ED4EB9CB6AB9 /* Pods-NZUtilz_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZUtilz_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NZUtilz_Tests/Pods-NZUtilz_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		339D35144B0CEA8C9423D5B5 /* NZUtilz.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NZUtilz.podspec; path = ../NZUtilz.podspec; sourceTree = "<group>"; };
+		339D35144B0CEA8C9423D5B5 /* NZUtilz.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NZUtilz.podspec; path = ../NZUtilz.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5823EBDE60DB974D4C12B677 /* Pods_NZUtilz_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NZUtilz_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* NZUtilz_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NZUtilz_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7DBB4AC436548634C51B97AF /* Pods-NZUtilz_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZUtilz_Tests.release.xcconfig"; path = "Target Support Files/Pods-NZUtilz_Tests/Pods-NZUtilz_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CD593E8D3F46C643ADF9B203 /* Pods_NZUtilz_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NZUtilz_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E13BFBC6D8395BEE2F240B07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E5DEE04C14A96AA9C53DEE1A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E13BFBC6D8395BEE2F240B07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E5DEE04C14A96AA9C53DEE1A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E8B872E463D5D1205CF272DF /* Pods-NZUtilz_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZUtilz_Example.debug.xcconfig"; path = "Target Support Files/Pods-NZUtilz_Example/Pods-NZUtilz_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F9BB52401D27A97169A7D401 /* Pods-NZUtilz_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NZUtilz_Example.release.xcconfig"; path = "Target Support Files/Pods-NZUtilz_Example/Pods-NZUtilz_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				2E106C52FA74ED4EB9CB6AB9 /* Pods-NZUtilz_Tests.debug.xcconfig */,
 				7DBB4AC436548634C51B97AF /* Pods-NZUtilz_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,10 +269,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-NZUtilz_Example/Pods-NZUtilz_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NSObject-Meta/NSObject_Meta.framework",
 				"${BUILT_PRODUCTS_DIR}/NZUtilz/NZUtilz.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Meta.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NZUtilz.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

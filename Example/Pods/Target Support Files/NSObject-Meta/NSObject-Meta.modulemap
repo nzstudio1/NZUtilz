@@ -1,0 +1,6 @@
+framework module NSObject_Meta {
+  umbrella header "NSObject-Meta-umbrella.h"
+
+  export *
+  module * { export * }
+}

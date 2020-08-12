@@ -1,0 +1,27 @@
+{
+  "name": "NZUtilz",
+  "version": "0.1.0",
+  "summary": "A short description of NZUtilz.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nzstudio1/NZUtilz",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hamidreza Vakilian": "hamid@nzstudio.dev"
+  },
+  "source": {
+    "git": "https://github.com/nzstudio1/NZUtilz.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "NZUtilz/NZUtilz/Classes/**/*",
+  "dependencies": {
+    "NSObject-Meta": [
+      "~> 0.1.0"
+    ]
+  }
+}
