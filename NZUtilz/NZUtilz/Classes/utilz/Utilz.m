@@ -1,9 +1,9 @@
 //
 //  Utilz.m
-//  Dabdoob
+//  NZStudio
 //
-//  Created by H. Vakilian on 9/13/19.
-//  Copyright © 2019 nizek. All rights reserved.
+//  Created by H. Vakilian on 9/9/2020.
+//  Copyright © 2020 NZStudio. All rights reserved.
 //
 
 #import "Utilz.h"
@@ -152,8 +152,7 @@ static BOOL cached_appIsRTL;
 +(void)setDeviceOrientation:(UIInterfaceOrientation)orientation {
     @try {
         [UIViewController attemptRotationToDeviceOrientation];
-        NSNumber *value = [NSNumber numberWithInt:orientation];
-        [UIDevice.currentDevice setValue:value forKey:@"orientation"];
+        [UIDevice.currentDevice setValue:@(orientation) forKey:@"orientation"];
         [UIViewController attemptRotationToDeviceOrientation];
     } @catch (NSException *exception) {
         

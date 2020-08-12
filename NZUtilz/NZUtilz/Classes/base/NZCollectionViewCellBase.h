@@ -1,9 +1,9 @@
 //
 //  NZCollectionViewCellBase.h
-//  NZCodebase
+//  NZStudio
 //
-//  Created by H. Vakilian on 5/6/17.
-//  Copyright © 2017 Nizek. All rights reserved.
+//  Created by H. Vakilian on 9/9/2020.
+//  Copyright © 2020 NZStudio. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

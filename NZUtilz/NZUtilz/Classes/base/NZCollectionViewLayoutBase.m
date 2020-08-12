@@ -1,9 +1,9 @@
 //
 //  NZCollectionViewLayoutBase.m
-//  NZCodebase
+//  NZStudio
 //
-//  Created by H. Vakilian on 7/31/16.
-//  Copyright © 2016 Nizek. All rights reserved.
+//  Created by H. Vakilian on 9/9/2020.
+//  Copyright © 2020 NZStudio. All rights reserved.
 //
 
 #import "NZCollectionViewLayoutBase.h"
@@ -19,21 +19,21 @@
 
 -(NSString *)layoutKeyForIndexPath:(NSIndexPath *)indexPath
 {
-    return [NSString stringWithFormat:@"i_%ld_%ld", indexPath.section, indexPath.row];
+    return [NSString stringWithFormat:@"i_%ld_%ld", (long)indexPath.section, (long)indexPath.row];
 }
 
 -(NSString *)layoutKeyForHeaderAtIndexPath:(NSIndexPath *)indexPath
 {
-    return [NSString stringWithFormat:@"h_%ld_%ld", indexPath.section, indexPath.row];
+    return [NSString stringWithFormat:@"h_%ld_%ld", (long)indexPath.section, (long)indexPath.row];
 }
 -(NSString *)layoutKeyForFooterAtIndexPath:(NSIndexPath *)indexPath
 {
-    return [NSString stringWithFormat:@"f_%ld_%ld", indexPath.section, indexPath.row];
+    return [NSString stringWithFormat:@"f_%ld_%ld", (long)indexPath.section, (long)indexPath.row];
 }
 
 -(NSString *)layoutKeyForDecorationViewOfKind:(NSString*)elementKind atIndexPath:(NSIndexPath *)indexPath
 {
-    return [NSString stringWithFormat:@"d_%ld_%ld_%@", indexPath.section, indexPath.row, elementKind];
+    return [NSString stringWithFormat:@"d_%ld_%ld_%@", (long)indexPath.section, (long)indexPath.row, elementKind];
 }
 
 -(UICollectionViewLayoutAttributes *)layoutAttributesForDecorationViewOfKind:(NSString *)elementKind atIndexPath:(NSIndexPath *)indexPath

@@ -1,9 +1,11 @@
 //
 //  HUtilz.m
-//  NZCodebase
+//  NZStudio
 //
-//  Created by Hamidreza Vakilian on 9/25/1398 AP.
+//  Created by H. Vakilian on 9/9/2020.
+//  Copyright © 2020 NZStudio. All rights reserved.
 //
+
 
 #import "HUtilz.h"
 #import <CommonCrypto/CommonHMAC.h>

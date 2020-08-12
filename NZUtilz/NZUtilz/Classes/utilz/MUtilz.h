@@ -1,10 +1,11 @@
 //
 //  MUtilz.h
-//  Dabdoob
+//  NZStudio
 //
-//  Created by H. Vakilian on 9/16/19.
-//  Copyright © 2019 nizek. All rights reserved.
+//  Created by H. Vakilian on 9/9/2020.
+//  Copyright © 2020 NZStudio. All rights reserved.
 //
+
 
 #import <Foundation/Foundation.h>
 

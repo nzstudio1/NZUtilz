@@ -1,9 +1,9 @@
 //
 //  NZCollectionViewLayoutBase.h
-//  NZCodebase
+//  NZStudio
 //
-//  Created by H. Vakilian on 7/31/16.
-//  Copyright © 2016 Nizek. All rights reserved.
+//  Created by H. Vakilian on 9/9/2020.
+//  Copyright © 2020 NZStudio. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

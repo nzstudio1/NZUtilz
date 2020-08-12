@@ -1,10 +1,11 @@
 //
 //  CUtilz.m
-//  Dabdoob
+//  NZStudio
 //
-//  Created by H. Vakilian on 6/25/1398 AP.
-//  Copyright © 1398 nizek. All rights reserved.
+//  Created by H. Vakilian on 9/9/2020.
+//  Copyright © 2020 NZStudio. All rights reserved.
 //
+
 
 #import "CUtilz.h"
 

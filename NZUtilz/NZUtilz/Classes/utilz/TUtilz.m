@@ -1,9 +1,11 @@
 //
 //  TUtilz.m
-//  NZCodebase
+//  NZStudio
 //
-//  Created by H. Vakilian on 8/24/1398 AP.
+//  Created by H. Vakilian on 9/9/2020.
+//  Copyright © 2020 NZStudio. All rights reserved.
 //
+
 #import "TUtilz.h"
 
 @implementation TUtilz
