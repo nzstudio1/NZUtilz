@@ -1,6 +1,6 @@
 PODS:
   - NSObject-Meta (0.1.0)
-  - NZUtilz (0.1.0):
+  - NZUtilz (0.1.1):
     - NSObject-Meta (~> 0.1.0)
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   NSObject-Meta: fa405e23ac943edb6400899c6fd106ba3f469f4c
-  NZUtilz: aecf9298b9aba46e87cd206e5262bf16e1fc1363
+  NZUtilz: 28a73ef0e064523a9bc7a89885011ff4dc3a87e6
 
 PODFILE CHECKSUM: e630433a8e8748d71e81fee4ff27ea360230f2e4
 
